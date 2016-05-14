@@ -1,0 +1,17 @@
+<head>
+  <title>simple</title>
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  {{> applicationLayout}}
+</body>
+
+<template name="applicationLayout">
+  {{> Template.dynamic template=main}}
+</template>
+
+
+<template name="test">
+  <button class='modal_show'>modal</button>
+  <div class="red" style='width:100px;height:100px;'></div>
+</template>
